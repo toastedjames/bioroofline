@@ -96,7 +96,7 @@ These steps reproduce all 15 simulation results and all figures.
 ### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/somakg63/bioroofline-artifact
+git clone https://github.com/toastedjames/bioroofline
 cd bioroofline-artifact
 ```
 
