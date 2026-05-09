@@ -4,7 +4,6 @@
 **Institution:** Bradley Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, USA  
 **Course:** CS/ECE 4504/5504 — Computer Organization  
 **Paper (Overleaf):** https://www.overleaf.com/project/69feb2a2f7305a152e6576cb  
-**GitHub:** https://github.com/somakg63/bioroofline-artifact  
 
 ---
 
@@ -252,18 +251,3 @@ See `environment/versions.txt` for the complete pinned version manifest.
 | OS | Arch Linux, kernel 7.0.3 |
 | CPU | Intel Core Ultra 285H |
 
----
-
-## Project Proposal
-
-The original project proposal submitted to the course instructor is included in this repository:  
-`Proposal-somakg63.pdf`
-
----
-
-## Contact
-
-- **Somak Goswami** — somakg63@vt.edu  
-- **Wu-Chun Feng** — wfeng@vt.edu  
-- Bradley Department of Electrical and Computer Engineering  
-- Virginia Polytechnic Institute and State University, Blacksburg, Virginia, USA
