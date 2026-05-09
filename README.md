@@ -2,7 +2,8 @@
 
 **Authors:** Somak Goswami (somakg63@vt.edu), Wu-Chun Feng (wfeng@vt.edu)  
 **Institution:** Bradley Department of Electrical and Computer Engineering, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, USA  
-**Course:** CS/ECE 4504/5504 — Computer Organization  
+**Course:** ECE 5504 — Computer Architecture (Spring '26)
+**Proposal Paper (Overleaf):** https://www.overleaf.com/project/69c2e9a617a4ee8953eb4186  
 **Paper (Overleaf):** https://www.overleaf.com/project/69feb2a2f7305a152e6576cb  
 
 ---
