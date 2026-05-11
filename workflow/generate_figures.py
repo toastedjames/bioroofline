@@ -9,7 +9,6 @@ import os
 FIGURES = os.path.expanduser("~/bioroofline-artifact/figures")
 os.makedirs(FIGURES, exist_ok=True)
 
-# ── Real GEM5 results ─────────────────────────────────────────────────
 experiments = {
     "E1\nBaseline\n(1MB L2)",
     "E2\nLarger L2\n(4MB)",
@@ -140,8 +139,6 @@ ax.axvline(ridge_dram, color='gray', lw=0.8, ls='-.')
 ax.text(ridge_dram*1.05, 0.15,
         f'Ridge $I^*$={ridge_dram:.1f}', fontsize=8, color='gray')
 
-# BWT workload points — estimated from GEM5 results
-# Low AI confirms memory-bound behavior
 bwt_points = {
     'E1 Baseline':       (0.05, 0.258 * 1.0),
     'E2 Larger L2':      (0.06, 0.271 * 1.0),
