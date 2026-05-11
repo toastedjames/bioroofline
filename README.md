@@ -43,9 +43,7 @@ bioroofline-artifact/
 │   └── bwt_sim                        # Pre-compiled static binary for GEM5
 ├── workflow/
 │   └── scripts/
-│       ├── run_gem5_all.sh            # Runs original 5 GEM5 experiments
 │       ├── run_gem5_extended.sh       # Runs all 15 GEM5 experiments
-│       ├── run_gem5_parallel.sh       # Runs all 15 experiments in parallel
 │       └── generate_figures.py        # Generates all paper figures
 ├── results/
 │   └── gem5/
@@ -85,21 +83,18 @@ bioroofline-artifact/
 - **GEM5 v25.1.0.1** — [Build instructions](https://www.gem5.org/documentation/general_docs/building)
 - **GCC 10+** with static linking support
 - **Python 3.10+** with numpy, matplotlib, pandas
-- BWA-MEM v0.7.17 (optional — for real pipeline only)
-- SAMtools v1.15 (optional — for real pipeline only)
 
 ---
 
 ## Quick Start — Reproduce All GEM5 Results (20 minutes)
 
 These steps reproduce all 15 simulation results and all figures.  
-**No genome data download required.**
 
 ### Step 1 — Clone the repository
 
 ```bash
 git clone https://github.com/toastedjames/bioroofline
-cd bioroofline-artifact
+cd bioroofline
 ```
 
 ### Step 2 — Build the BWT simulator
@@ -136,8 +131,6 @@ ls $GEM5/build/X86/gem5.opt
 # Sequential (safer, ~20 min total)
 bash workflow/scripts/run_gem5_extended.sh
 
-# OR parallel (faster, ~5 min total, uses all CPU cores)
-bash workflow/scripts/run_gem5_parallel.sh
 ```
 
 Progress is shown as each experiment completes:
