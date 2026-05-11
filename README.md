@@ -33,9 +33,10 @@ Clinical whole-genome sequencing (WGS) pipelines are limited by a fundamental me
 ## Repository Structure
 
 ```
-bioroofline-artifact/
+bioroofline/
 ├── README.md                          # This file
-├── Proposal-somakg63.pdf              # Original project proposal
+├── Proposal_somakg63.pdf              # Original project proposal
+├── Final Project_somakg63.pdf         # Final project report
 ├── environment/
 │   └── versions.txt                   # Pinned software versions
 ├── bioroofline/
