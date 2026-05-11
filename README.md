@@ -86,7 +86,7 @@ bioroofline-artifact/
 
 ---
 
-## Quick Start — Reproduce All GEM5 Results (20 minutes)
+## Quick Start — Reproduce GEM5 Results
 
 These steps reproduce all 15 simulation results and all figures.  
 
